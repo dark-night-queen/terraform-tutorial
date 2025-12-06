@@ -1,9 +1,12 @@
+## File Destructure
+
 When scaling a product, keeping all the infra blocks in one file is bad for maintainability. Hence, we will split the blocks across multiple files.
 
 Note:
 The files will be executed in alphabetic order.
 
->>> terraform plan
+\> `terraform plan`
+
 ```shell
 Changes to Outputs:
   + abc-output-block    = "This is the abc output block"
